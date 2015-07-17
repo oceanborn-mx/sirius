@@ -1,0 +1,48 @@
+Here are three parallel Matrix Multiplication Algorithms I coded in Verilog long time ago, they are fully synthetizable.
+
+TODO: Re-write the source code into SytemVerilog. Add Waveforms.
+
+I am just giving you a brick, you are in charge to build the entire castle.
+
+
+.
+└── src.verilog
+    ├── Matrix_Multiplication_Torus
+    │   └── Matrix_Multiplication_Torus
+    │       └── src
+    │           ├── arreglo_torus.v
+    │           ├── barrel_shifter.v
+    │           ├── fsm_ctrol.v
+    │           ├── mac.v
+    │           ├── multiplicacion_matricial_torus.v
+    │           ├── multiplicador_4x4.v
+    │           ├── mux4_2_1.v
+    │           ├── reg_acc_12b.v
+    │           ├── registro_4b.v
+    │           ├── reg_res_12b.v
+    │           └── sumador_12b.v
+    ├── Multiplicacion_Matricial_2DMesh
+    │   └── Multiplicacion_Matricial_2DMesh
+    │       └── src
+    │           ├── arreglo_2dmesh.v
+    │           ├── barrel_shifter.v
+    │           ├── fsm_ctrol.v
+    │           ├── mac.v
+    │           ├── multiplicacion_matricial_2dmesh.v
+    │           ├── multiplicador_4x4.v
+    │           ├── reg_acc_12b.v
+    │           ├── registro_4b.v
+    │           ├── registro_8b.v
+    │           ├── reg_res_12b.v
+    │           └── sumador_8b.v
+    └── Multiplicacion_Matricial_Hipercubica
+        └── Multiplicacion_Matricial_Hipercubica
+            └── src
+                ├── fsm_ctrol.v
+                ├── hipercubo.v
+                ├── multiplicacion_matricial_hipercubica.v
+                ├── multiplicador_4x4.v
+                ├── mux4_2_1.v
+                ├── registro_4b.v
+                ├── registro_8b.v
+                └── sumador_8b.v
